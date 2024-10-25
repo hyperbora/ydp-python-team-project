@@ -1,13 +1,7 @@
 {
-    "editor.formatOnSave": true,
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter",
-        "editor.formatOnSave": true,
-        "python.linting.pylintPath": "pylint",
-        "python.linting.enabled": true,
-        "python.linting.pylintEnabled": true,
-        "python.linting.pylintArgs": [
-            "--disable=C0114,C0115,C0116"
-        ]
-    }
+  "editor.formatOnSave": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  }
 }
