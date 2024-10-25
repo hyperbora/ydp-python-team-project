@@ -2,7 +2,7 @@
 
 영등포 Chat GPT와 함께하는 파이썬 코팅 팀 프로젝트
 
-![이미지 설명](./github-url-qrcode.png)
+![Github페이지](./github-url-qrcode.png)
 
 ## 설치 방법
 
@@ -52,3 +52,36 @@ python main.py
 | ----------------------------------------- | --------------------------- |
 | [Kivy](https://kivy.org/)                 | 크로스플랫폼 GUI 프레임워크 |
 | [SQLAlchemy](https://www.sqlalchemy.org/) | 데이터 베이스 ORM           |
+
+## 폴더 구조
+
+Project Root
+
+```bash
+├── .vscode
+│ ├── extensions.txt          # vscode 확장파일 목록
+│ └── settings.json           # vscode 프로젝트 설정
+│
+├── models/                   # 데이터와 데이터베이스 로직 (DB ORM 포함)
+│   ├── __init__.py
+│   └── *.py                  # 데이터 모델 등
+│
+├── views/                    # 사용자 인터페이스 레이아웃 및 화면
+│   ├── __init__.py
+│   └── *.kv                  # Kivy KV 언어로 작성된 뷰 레이아웃
+│
+├── viewmodels/               # UI와 Model을 연결하는 로직
+│   ├── __init__.py
+│   └── *.py                  # 화면에 대한 로직
+│
+├── services/                 # 앱 전체에서 사용할 비즈니스 로직 및 유틸리티
+│   ├── __init__.py
+│   ├── data_service.py       # 데이터 가져오기 및 저장하기 등
+│   └── utils.py              # 공통으로 사용할 유틸리티
+│
+├── tests                     # 테스트 코드
+│   └── *.py                  # 코드 테스트
+├── main.py                   # 메인 파이썬 파일
+├── README.md                 # 프로젝트 설명 파일
+└── requirements.txt          # 필요 라이브러리 목록
+```
