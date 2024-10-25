@@ -6,11 +6,13 @@ import os
 import kivy
 from kivy.app import App
 from kivy.uix.label import Label
-
+import platform
 
 kivy.require("2.3.0")
-os.environ["KIVY_GL_BACKEND"] = "angle_sdl2"
 
+# OS별 KIVY_GL_BACKEND 설정
+if platform.system() == "Windows":
+    os.environ["KIVY_GL_BACKEND"] = "angle_sdl2"
 
 class MyFirstKivyApp(App):
     """
