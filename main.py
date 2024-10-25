@@ -1,7 +1,11 @@
+"""
+프로그램 시작점
+"""
+
+import os
 import kivy
 from kivy.app import App
 from kivy.uix.label import Label
-import os
 
 
 kivy.require("2.3.0")
