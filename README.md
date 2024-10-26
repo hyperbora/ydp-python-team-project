@@ -51,6 +51,7 @@ python main.py
 | 이름                                      | 설명                        |
 | ----------------------------------------- | --------------------------- |
 | [Kivy](https://kivy.org/)                 | 크로스플랫폼 GUI 프레임워크 |
+| [SQLite](https://www.sqlite.org/)         | 데이터 베이스               |
 | [SQLAlchemy](https://www.sqlalchemy.org/) | 데이터 베이스 ORM           |
 
 ## 폴더 구조
