@@ -12,7 +12,7 @@
 git clone https://github.com/hyperbora/ydp-python-team-project.git
 ```
 
-2. python 가상환경 만들고 활성화, 비활성화
+2. python 가상환경 만들고 활성화
 
 ```bash
 # 예시는 가상환경명이 myenv 이며 파이썬버전이 3.12.7 인 경우
